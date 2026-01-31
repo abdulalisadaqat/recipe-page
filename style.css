@@ -48,11 +48,11 @@ p {
 }
 
 li p {
-	margin-left: 0.625rem;
+	margin-inline-start: 0.625rem;
 }
 
 ul {
-	margin-left: 1.25rem;
+	margin-inline-start: 1.25rem;
 	margin-top: 1.25rem;
 }
 
@@ -82,11 +82,11 @@ ul li::marker {
 	width: 100%;
 }
 
-#banner-mobile img {
+.banner-mobile img {
 	transform: scale(1.05);
 }
 
-#banner-desktop {
+.banner-desktop {
 	display: none;
 }
 
@@ -133,7 +133,7 @@ ul li::marker {
 
 /* instructions section */
 #instructions ol {
-	margin-left: 1.25rem;
+	margin-inline-start: 1.25rem;
 	margin-top: 1.25rem;
 }
 
@@ -157,7 +157,7 @@ ul li::marker {
 	padding-top: 1.25rem;
 }
 
-#nutrition>p {
+#nutrition>p.subtitle {
 	margin-top: 1.25rem;
 }
 
@@ -201,11 +201,11 @@ ul li::marker {
 		border-radius: 1rem;
 	}
 
-	#banner-mobile {
+	.banner-mobile {
 		display: none;
 	}
 
-	#banner-desktop {
+	.banner-desktop {
 		display: block;
 	}
 
